@@ -10,11 +10,11 @@ const routes = [
   {
     path: "/",
     component: Login,
-    redirect: "/login",
+    redirect: "/happyBirthday",
     children: [{ path: "/index", component: Index }],
   },
   {
-    path: "/login",
+    path: "/happyBirthday",
     component: Login
   },
   {
